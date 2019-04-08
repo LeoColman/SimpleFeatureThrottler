@@ -4,6 +4,13 @@
 
 When adding a new feature to an unstable production environment, a service might want to limit the amount of calls made to external services or procedures. With Simple Feature Throttler you can control this.
 
+## Using in your project
+
+To use Simple Feature Throttler in your project, include the dependency in your `build.gradle`, and you're good to go!
+
+```
+implementation("com.kerooker.simplefeaturethrottler:simple-feature-throttler:{currentVersion}")
+```
 
 ## Available API
 
