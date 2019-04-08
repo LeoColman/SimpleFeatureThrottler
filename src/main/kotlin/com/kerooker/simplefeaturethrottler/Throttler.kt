@@ -1,6 +1,6 @@
-package com.kerooker.simplefeaturethrottle
+package com.kerooker.simplefeaturethrottler
 
-import com.kerooker.simplefeaturethrottle.Throttler.Companion
+import com.kerooker.simplefeaturethrottler.Throttler.Companion
 import kotlin.random.Random
 
 /**

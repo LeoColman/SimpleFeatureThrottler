@@ -1,4 +1,4 @@
-package com.kerooker.simplefeaturethrottle.internal
+package com.kerooker.simplefeaturethrottler.internal
 
 import io.kotlintest.extensions.system.withEnvironment
 import io.kotlintest.extensions.system.withSystemProperty

@@ -1,6 +1,6 @@
-package com.kerooker.simplefeaturethrottle
+package com.kerooker.simplefeaturethrottler
 
-import com.kerooker.simplefeaturethrottle.internal.SystemPercentageFetcher
+import com.kerooker.simplefeaturethrottler.internal.SystemPercentageFetcher
 
 /**
  * Utility class to throttle values per-feature
