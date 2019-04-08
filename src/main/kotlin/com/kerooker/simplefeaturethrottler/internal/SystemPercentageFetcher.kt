@@ -1,4 +1,4 @@
-package com.kerooker.simplefeaturethrottle.internal
+package com.kerooker.simplefeaturethrottler.internal
 
 /**
  * This class is for internal use only. It's used to fetch the key [featureName] from the System

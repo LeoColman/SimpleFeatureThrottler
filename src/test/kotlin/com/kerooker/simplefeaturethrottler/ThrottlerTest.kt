@@ -1,4 +1,4 @@
-package com.kerooker.simplefeaturethrottle
+package com.kerooker.simplefeaturethrottler
 
 import io.kotlintest.matchers.numerics.shouldBeInRange
 import io.kotlintest.shouldBe

@@ -1,4 +1,4 @@
-package com.kerooker.simplefeaturethrottle
+package com.kerooker.simplefeaturethrottler
 
 import io.kotlintest.TestCase
 import io.kotlintest.TestResult
