@@ -43,7 +43,7 @@ The `FeatureThrottler` may be useful if you have more than one feature currently
 
 1. By Environment Variables, with the key being your feature and the value being the throttle percentage, for example: `my.feature=33.3`
 2. By the System Properties, in the same fashion as the Environment Variables: `my.feature=33.3`
-3. By calling the function `FeatureThrottler.setThrottlePercentage("my.feature", 33.3`
+3. By calling the function `FeatureThrottler.setThrottlePercentage("my.feature", 33.3)`
 
 
 To use the value you set anywhere in the program, you can simply use `FeatureThrottler.shouldThrottle("my.feature")`
