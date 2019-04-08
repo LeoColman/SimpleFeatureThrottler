@@ -42,7 +42,7 @@ class FeatureThrottlerTest : FunSpec() {
         }
         
         test("Should get percentage from System Environment if feature is unset") {
-            withEnvironment("my.feature", "36.0") {
+            withEnvironment("my.feature", "35.0") {
                 FeatureThrottler.getThrottlePercentage("my.feature") shouldBe 35.0
             }
         }
