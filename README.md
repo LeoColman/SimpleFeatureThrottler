@@ -22,7 +22,7 @@ The `Throttler` class draws number from a Random pool and checks if the next exe
 
 ```kotlin
 
-val throttler = Throttler(33.3) // I'll only allow 33.3% of the executions to go through
+val throttler = Throttler(90.0) // I'll deny 90% of the executions! Only 10% will go through
 
 fun myFeatureThatShouldBeThrottled() {
 

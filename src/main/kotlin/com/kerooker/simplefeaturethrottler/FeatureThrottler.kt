@@ -26,7 +26,7 @@ object FeatureThrottler {
      * ```
      *
      * fun initialization() {
-     *    FeatureThrottler.setThrottlePercentage("my.feature", 33.3) // Only allow 33.3% to go through
+     *    FeatureThrottler.setThrottlePercentage("my.feature", 90.0)  // Block 90% of the executions
      * }
      *
      * fun executeNewFunctionThatCallsBackend() {
