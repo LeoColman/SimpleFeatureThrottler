@@ -1,6 +1,6 @@
 # Simple-Feature-Throttler
 
-[![Build Status](https://travis-ci.com/Kerooker/SimpleFeatureThrottler.svg?branch=master)](https://travis-ci.com/Kerooker/SimpleFeatureThrottler) [![GitHub](https://img.shields.io/github/license/Kerooker/SimpleFeatureThrottler.svg)](https://github.com/Kerooker/SimpleFeatureThrottler/blob/master/LICENSE) [![Maven Central](https://img.shields.io/maven-central/v/com.kerooker.simplefeaturethrottler/simple-feature-throttler.svg)](https://search.maven.org/search?q=com.kerooker.simplefeaturethrottler)
+[![Build Status](https://travis-ci.com/Kerooker/SimpleFeatureThrottler.svg?branch=master)](https://travis-ci.com/Kerooker/SimpleFeatureThrottler) [![GitHub](https://img.shields.io/github/license/Kerooker/SimpleFeatureThrottler.svg)](https://github.com/Kerooker/SimpleFeatureThrottler/blob/master/LICENSE) [![Maven Central](https://img.shields.io/maven-central/v/com.kerooker.simplefeaturethrottler/simple-feature-throttler.svg)](https://search.maven.org/search?q=a:simple-feature-throttler)
 
 When adding a new feature to an unstable production environment, a service might want to limit the amount of calls made to external services or procedures. With Simple Feature Throttler you can control this.
 
