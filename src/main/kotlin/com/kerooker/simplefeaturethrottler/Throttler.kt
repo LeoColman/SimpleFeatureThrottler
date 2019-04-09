@@ -21,14 +21,14 @@ public class Throttler(
 ) {
     
     /**
-     * Verify if the next call should be throttled or not
+     * Verify if the next call should be throttled
      *
      * This method should be used to verify if you want to block the next call or if it should be allowed to execute.
      *
      * Example:
      *
      * ```
-     * val throttler = Throttler(33.3)  // Only allow 33.3% of the requests to go through
+     * val throttler = Throttler(90.0)  // Blocks 90% of the executions
      *
      * fun executeNewFunctionThatCallsBackend() {
      *
@@ -46,7 +46,7 @@ public class Throttler(
     public companion object {
     
         /**
-         * Verify if the next call should be throttle or not
+         * Verify if the next call should be throttled
          *
          * This method should be used to verify if you want to block the next call or if it should be allowed to execute.
          * This is a static option to [Throttler.shouldThrottle], as it doesn't require the instantiation of a [Throttler].
@@ -57,7 +57,7 @@ public class Throttler(
          *
          * fun executeNewFunctionThatCallsBackend() {
          *
-         *     if(Throttler.shouldThrottle(33.3)) return    // Only allow 33.3% of the requests to go through
+         *     if(Throttler.shouldThrottle(90.0)) return    // Blocks 90% of the executions
          *
          *     callBackend()
          *

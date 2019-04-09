@@ -7,7 +7,7 @@ import io.kotlintest.specs.FunSpec
 class ThrottlerTest : FunSpec() {
 
     init {
-        test("Should never throttle if percentage wasn't set") {
+        test("Default throttle should be 0.0 (never throttle)") {
             val throttler = Throttler()
             
             repeat(10_000) {
@@ -37,7 +37,7 @@ class ThrottlerTest : FunSpec() {
             }
         }
         
-        test("Should throttle X% for passed percentage") {
+        test("Should throttle the specified") {
             var throttled = 0
             var unthrottled = 0
     
