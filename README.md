@@ -1,4 +1,4 @@
-# Simple-Feature-Throttler
+# Simple Feature Throttler
 
 [![Build Status](https://travis-ci.com/Kerooker/SimpleFeatureThrottler.svg?branch=master)](https://travis-ci.com/Kerooker/SimpleFeatureThrottler) [![GitHub](https://img.shields.io/github/license/Kerooker/SimpleFeatureThrottler.svg)](https://github.com/Kerooker/SimpleFeatureThrottler/blob/master/LICENSE) [![Maven Central](https://img.shields.io/maven-central/v/com.kerooker.simplefeaturethrottler/simple-feature-throttler.svg)](https://search.maven.org/search?q=a:simple-feature-throttler)
 
@@ -26,7 +26,7 @@ val throttler = Throttler(90.0) // I'll deny 90% of the executions! Only 10% wil
 
 fun myFeatureThatShouldBeThrottled() {
 
-    if(throttler.shouldThrottle()) return
+    if (throttler.shouldThrottle()) return
     
     callOtherSystem()
 }
@@ -39,7 +39,7 @@ The `Throttler` also contains a utility Companion Object, with a function that m
 
 fun myFeatureThatShouldBeThrottled() {
 
-    if(Throttler.shouldThrottle(33.3)) return
+    if (Throttler.shouldThrottle(33.3)) return
     
     callOtherSystem()
 
@@ -65,7 +65,7 @@ So, for example:
 
 fun myFeatureThatShouldBeThrottled() {
 
-    if(FeatureThrottler.shouldThrottle("my.feature")) return
+    if (FeatureThrottler.shouldThrottle("my.feature")) return
     
     callBackend()
 
